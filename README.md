@@ -78,6 +78,7 @@ Pour exécuter le script, vous avez besoin des logiciels suivants installés sur
 
 N'oubliez pas de remplacer `<nom_fichier>` par le nom réel du fichier de données météorologiques que vous utilisez. Si vous avez des questions ou des problèmes, n'hésitez pas à nous contacter.
 
-Ce README.md peut être enrichi ou ajusté en fonction de vos besoins spécifiques.
-  
+## Contributeurs
 
+- Adam SWICZKA
+- 
