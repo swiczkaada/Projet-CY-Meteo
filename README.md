@@ -47,12 +47,12 @@ Cette commande permet de générer des graphiques des pressions moyennes et des 
 
 [LIEUX] : 
 
--F : France métropolitaine + Corse.
--G : Guyane française
--S : Saint-Pierre et Miquelon
--A : Antilles
--O : Océan indien
--Q . Antarctique
+- -F : France métropolitaine + Corse.
+- -G : Guyane française
+- -S : Saint-Pierre et Miquelon
+- -A : Antilles
+- -O : Océan indien
+- -Q . Antarctique
 
 [TYPE de données] :
 
