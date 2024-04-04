@@ -32,8 +32,9 @@ Pour obtenir de l'aide sur les options disponibles, vous pouvez utiliser l'optio
 ## Exemple d'utilisation
 
 Voici un exemple d'utilisation du script :
+```bash
 ./CY-Meteo.bash -f data.csv -p2 -w -A --avl
-
+```
 Cette commande permet de générer des graphiques des pressions moyennes et des vents pour les Antilles à partir du fichier de données `data.csv`, en utilisant un tri AVL.
 
 ## Manuel Options
