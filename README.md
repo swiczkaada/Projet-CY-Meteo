@@ -24,19 +24,19 @@ Pour utiliser le script `CY-Meteo.bash`, suivez les instructions suivantes :
 1. Assurez-vous que vous disposez des autorisations nécessaires pour exécuter le script. Par exemple `chmod +x CY-Meteo.bash`
 2. Téléchargez le fichier de données météorologiques au format CSV dans le dossier du projet.
 3. Exécutez le script en ligne de commande en spécifiant les options désirées.
-./CY-Meteo.bash [options]
+4. Suivez les instructions affichées par le script pour filtrer les données, choisir les types de données à traiter, spécifier les lieux géographiques, définir les intervalles de dates, etc.
+5. Le script générera des graphiques à partir des données triées et les sauvegardera dans un dossier doc.
 
+Pour obtenir de l'aide sur les options disponibles, vous pouvez utiliser l'option `--help`.
 
-## Comment installer et exécuter le projet ?
+## Exemple d'utilisation
 
-Instructions de compilation .
-1)	Ouvrez l'invite de commande
-2)	Déplacez-vous dans le répertoire Projet_Meteo
-3)	Exécutez la commande "make" pour générer l'éxécutable
-4)	Exécutez la commande "make clean" pour supprimer les fichiers objets
-5)	Exécuter la commande I ./scriptshell I sans oublier les arguments.
+Voici un exemple d'utilisation du script :
+./CY-Meteo.bash -f data.csv -p2 -w -A --avl
 
-## Comment utiliser le projet?
+Cette commande permet de générer des graphiques des pressions moyennes et des vents pour les Antilles à partir du fichier de données `data.csv`, en utilisant un tri AVL.
+
+## Manuel Options
 
 [TRIS] : 
 
@@ -61,8 +61,22 @@ Instructions de compilation .
 - h < attitude >
 - m < humidité >
 
-[FICHIER] :
+## Prérequis
 
---help: aide détaillé(affichage) à l'utisation du script
+Pour exécuter le script, vous avez besoin des logiciels suivants installés sur votre système :
+
+- Bash
+- GNU Plot
+- Compilateur C (pour le programme de tri en langage C)
+
+## Structure du projet
+
+- `CY-Meteo.bash` : Le script principal.
+- `README.md` : Ce fichier qui décrit le projet et son utilisation.
+- `data.csv` : Fichier de données météorologiques (non inclus).
+
+N'oubliez pas de remplacer `<nom_fichier>` par le nom réel du fichier de données météorologiques que vous utilisez. Si vous avez des questions ou des problèmes, n'hésitez pas à nous contacter.
+
+Ce README.md peut être enrichi ou ajusté en fonction de vos besoins spécifiques.
   
 
