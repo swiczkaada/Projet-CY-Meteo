@@ -22,8 +22,10 @@ Le script `CY-Meteo.bash` est le cœur du projet. Il est écrit en langage Bash 
 Pour utiliser le script `CY-Meteo.bash`, suivez les instructions suivantes :
 
 1. Assurez-vous que vous disposez des autorisations nécessaires pour exécuter le script. Par exemple `chmod +x CY-Meteo.bash`
-2. Téléchargez le fichier `CY-Meteo.bash` sur votre système.
+2. Téléchargez le fichier de données météorologiques au format CSV dans le dossier du projet.
 3. Exécutez le script en ligne de commande en spécifiant les options désirées.
+./CY-Meteo.bash [options]
+
 
 ## Comment installer et exécuter le projet ?
 
