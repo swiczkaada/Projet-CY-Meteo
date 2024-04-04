@@ -81,4 +81,4 @@ N'oubliez pas de remplacer `<nom_fichier>` par le nom réel du fichier de donné
 ## Contributeurs
 
 - Adam SWICZKA
-- 
+- Carla JULIEN 
