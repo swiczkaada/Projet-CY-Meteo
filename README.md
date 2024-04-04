@@ -41,9 +41,9 @@ Cette commande permet de générer des graphiques des pressions moyennes et des 
 
 [TRIS] : 
 
--- tab : tri de données à l'aide d'un tableau (ou liste chaînée) 
--- abr : tri à l'aide d'une structure d'arbre binaire ABR ou AVL 
--- avl
+- --tab : tri de données à l'aide d'un tableau (ou liste chaînée) 
+- --abr : tri à l'aide d'une structure d'arbre binaire ABR 
+- --avl:  tri à l'aide d'une structure d'arbre binaire AVL
 
 [LIEUX] : 
 
@@ -56,11 +56,11 @@ Cette commande permet de générer des graphiques des pressions moyennes et des 
 
 [TYPE de données] :
 
-- p < pressions atmosphériques >
-- t < temperatures >
-- w < vent > 
-- h < attitude >
-- m < humidité >
+- -p < pressions atmosphériques >
+- -t < temperatures >
+- -w < vent > 
+- -h < attitude >
+- -m < humidité >
 
 ## Prérequis
 
